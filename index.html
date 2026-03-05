@@ -1,19 +1,1014 @@
+<!-- index.html -->
 <!doctype html>
-<html>
+<html lang="ru">
 
 <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="./style/style.css">
-    <title>my_site</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description"
+        content="Продажа и монтаж кондиционеров под ключ. Бесплатный выезд, подбор модели под площадь, монтаж за 1 день, гарантия 12 месяцев на работы." />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Кондиционеры под ключ — подбор, доставка и монтаж" />
+    <meta property="og:description"
+        content="Подберём кондиционер под вашу задачу и установим за 1 день. Бесплатный выезд, рассрочка, гарантия на монтаж 12 месяцев." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="ru_RU" />
+
+    <title>Кондиционеры под ключ — продажа и монтаж за 1 день</title>
+    <link rel="stylesheet" href="./style/style.css" />
 </head>
 
 <body>
-    <form action="" method="" enctype="" autocomplete>
-        <select name="" id="">
-            <option value="">Россия</option>
-            <option value="">Англия</option>
-        </select>
-    </form>
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+    <!-- Header -->
+    <header class="header" id="top">
+        <div class="container header__inner">
+            <a class="brand" href="#top" aria-label="На главную">
+                <span class="brand__mark" aria-hidden="true">❄</span>
+                <span class="brand__text">
+                    <span class="brand__name">CoolAir</span>
+                    <span class="brand__tag">кондиционеры и монтаж</span>
+                </span>
+            </a>
+
+            <nav class="nav" aria-label="Основная навигация">
+                <a class="nav__link" href="#select">Подбор</a>
+                <a class="nav__link" href="#catalog">Каталог</a>
+                <a class="nav__link" href="#reviews">Отзывы</a>
+                <a class="nav__link" href="#faq">FAQ</a>
+                <a class="nav__link" href="#contacts">Контакты</a>
+            </nav>
+
+            <div class="header__cta">
+                <a class="phone" href="tel:+49999999999" aria-label="Позвонить">
+                    <span class="phone__label">Звонок бесплатно</span>
+                    <span class="phone__value">+49 (999) 999-99-99</span>
+                </a>
+                <a class="btn btn--primary" href="#lead" aria-label="Подобрать модель">Подобрать модель</a>
+            </div>
+
+            <button class="nav-toggle" type="button" aria-label="Меню" aria-controls="mobileMenu">
+                <span aria-hidden="true">☰</span>
+            </button>
+        </div>
+
+        <div class="mobile-menu" id="mobileMenu" aria-label="Меню на мобильных">
+            <div class="container mobile-menu__inner">
+                <a class="mobile-menu__link" href="#select">Подбор</a>
+                <a class="mobile-menu__link" href="#catalog">Каталог</a>
+                <a class="mobile-menu__link" href="#why">Почему мы</a>
+                <a class="mobile-menu__link" href="#reviews">Отзывы</a>
+                <a class="mobile-menu__link" href="#faq">FAQ</a>
+                <a class="mobile-menu__link" href="#contacts">Контакты</a>
+            </div>
+        </div>
+    </header>
+
+    <main id="main">
+        <!-- Hero -->
+        <section class="hero">
+            <div class="container hero__grid">
+                <div class="hero__content">
+                    <div class="pill" role="note" aria-label="Сервис и гарантия">
+                        <span class="pill__dot" aria-hidden="true"></span>
+                        Бесплатный выезд • Монтаж «под ключ» • Гарантия 12 месяцев на работы
+                    </div>
+
+                    <h1 class="hero__title">Кондиционеры с установкой за 1 день — подберём под вашу площадь и бюджет
+                    </h1>
+                    <p class="hero__subtitle">
+                        Без переплат и сюрпризов: честная смета, аккуратный монтаж, поддержка после установки.
+                        Подберём модель под квартиру, офис или спальню — и установим в удобный день.
+                    </p>
+
+                    <div class="hero__actions">
+                        <a class="btn btn--primary btn--lg" href="#lead" aria-label="Оставить заявку на подбор">Получить
+                            подбор + смету</a>
+                        <a class="btn btn--secondary btn--lg" href="#catalog"
+                            aria-label="Перейти в каталог моделей">Смотреть модели</a>
+                    </div>
+
+                    <div class="badges" aria-label="Преимущества">
+                        <span class="badge">Подбор за 10 минут</span>
+                        <span class="badge">Рассрочка от 0%</span>
+                        <span class="badge">Тихие модели 19–26 дБ</span>
+                        <span class="badge">Сертифицированные мастера</span>
+                    </div>
+
+                    <div class="rating" aria-label="Рейтинг и отзывы">
+                        <div class="rating__stars" aria-hidden="true">★★★★★</div>
+                        <div class="rating__text">
+                            <strong>4,9</strong> из 5 — по <strong>312</strong> отзывам клиентов
+                        </div>
+                    </div>
+
+                    <p class="microcopy">
+                        *Точная цена зависит от длины трассы, сложности и этажности. Перед работами согласуем смету.
+                    </p>
+                </div>
+
+                <div class="hero__visual" aria-label="Изображение кондиционера">
+                    <div class="visual-card">
+                        <div class="visual-card__top">
+                            <span class="visual-chip">Инвертор</span>
+                            <span class="visual-chip">A++</span>
+                            <span class="visual-chip">19 дБ</span>
+                        </div>
+
+                        <!-- Real image (inline SVG via data URI) -->
+                        <div class="visual-hero">
+                            <img class="visual-hero__img" alt="Иллюстрация кондиционера с прохладным воздушным потоком"
+                                src="data:image/svg+xml;utf8,
+                <svg xmlns='http://www.w3.org/2000/svg' width='920' height='520' viewBox='0 0 920 520'>
+                  <defs>
+                    <linearGradient id='bg' x1='0' y1='0' x2='1' y2='1'>
+                      <stop offset='0' stop-color='%230b1220'/>
+                      <stop offset='1' stop-color='%230f1a2e'/>
+                    </linearGradient>
+                    <radialGradient id='glow' cx='30%25' cy='10%25' r='70%25'>
+                      <stop offset='0' stop-color='%236ad7ff' stop-opacity='.35'/>
+                      <stop offset='.55' stop-color='%234aa7ff' stop-opacity='.18'/>
+                      <stop offset='1' stop-color='%234aa7ff' stop-opacity='0'/>
+                    </radialGradient>
+                    <linearGradient id='unit' x1='0' y1='0' x2='0' y2='1'>
+                      <stop offset='0' stop-color='%23ffffff' stop-opacity='.18'/>
+                      <stop offset='1' stop-color='%23ffffff' stop-opacity='.06'/>
+                    </linearGradient>
+                    <linearGradient id='air' x1='0' y1='0' x2='1' y2='0'>
+                      <stop offset='0' stop-color='%236ad7ff' stop-opacity='.0'/>
+                      <stop offset='.35' stop-color='%236ad7ff' stop-opacity='.28'/>
+                      <stop offset='1' stop-color='%234aa7ff' stop-opacity='.0'/>
+                    </linearGradient>
+                    <filter id='shadow' x='-30%25' y='-30%25' width='160%25' height='160%25'>
+                      <feDropShadow dx='0' dy='18' stdDeviation='16' flood-color='%23000000' flood-opacity='.35'/>
+                    </filter>
+                  </defs>
+
+                  <rect width='920' height='520' fill='url(%23bg)'/>
+                  <rect width='920' height='520' fill='url(%23glow)'/>
+
+                  <!-- airflow ribbons -->
+                  <path d='M140 310 C 260 250, 360 360, 500 300 S 750 320, 840 270' stroke='url(%23air)' stroke-width='22' fill='none' stroke-linecap='round'/>
+                  <path d='M140 360 C 270 300, 360 420, 520 350 S 760 360, 840 320' stroke='url(%23air)' stroke-width='16' fill='none' stroke-linecap='round' opacity='.85'/>
+                  <path d='M140 410 C 280 360, 380 470, 540 400 S 770 410, 840 380' stroke='url(%23air)' stroke-width='12' fill='none' stroke-linecap='round' opacity='.7'/>
+
+                  <!-- indoor unit -->
+                  <g filter='url(%23shadow)'>
+                    <rect x='180' y='120' rx='36' ry='36' width='560' height='170' fill='url(%23unit)' stroke='%23ffffff' stroke-opacity='.16'/>
+                    <rect x='210' y='210' rx='24' ry='24' width='500' height='46' fill='%23000000' fill-opacity='.18' stroke='%23ffffff' stroke-opacity='.14'/>
+                    <rect x='210' y='185' width='500' height='2' fill='%23ffffff' fill-opacity='.12'/>
+                    <rect x='660' y='150' rx='999' ry='999' width='56' height='22' fill='%234aa7ff' fill-opacity='.20' stroke='%234aa7ff' stroke-opacity='.30'/>
+                    <circle cx='240' cy='155' r='6' fill='%237cf0c2' fill-opacity='.75'/>
+                    <text x='280' y='162' font-family='system-ui, -apple-system, Segoe UI, Arial' font-size='18' fill='%23ffffff' fill-opacity='.70'>CoolAir • A++ • Inverter</text>
+                  </g>
+
+                  <!-- tiny snow icon -->
+                  <g opacity='.65'>
+                    <circle cx='120' cy='150' r='32' fill='%234aa7ff' fill-opacity='.14' stroke='%234aa7ff' stroke-opacity='.22'/>
+                    <path d='M120 128v44M100 150h40M106 136l28 28M134 136l-28 28' stroke='%23ffffff' stroke-opacity='.75' stroke-width='2' stroke-linecap='round'/>
+                  </g>
+                </svg>" />
+                        </div>
+
+                        <div class="visual-card__stats" aria-label="Сводка параметров">
+                            <div class="stat">
+                                <div class="stat__k">Площадь</div>
+                                <div class="stat__v">до 35 м²</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat__k">Монтаж</div>
+                                <div class="stat__v">за 3–4 часа</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat__k">Гарантия</div>
+                                <div class="stat__v">12 мес.</div>
+                            </div>
+                        </div>
+
+                        <div class="visual-card__note">
+                            Нужен подбор? Ответьте на 3 вопроса — пришлём 2–3 варианта под вашу задачу.
+                        </div>
+
+                        <a class="btn btn--primary btn--full" href="#lead" aria-label="Подобрать модель внизу блока">
+                            Подобрать модель
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Select by tasks -->
+        <section class="section" id="select">
+            <div class="container">
+                <div class="section__head">
+                    <h2 class="section__title">Подбор по задачам</h2>
+                    <p class="section__desc">Подскажем оптимальную мощность, уровень шума и функции — без переплаты за
+                        лишнее.</p>
+                </div>
+
+                <div class="grid grid--4">
+                    <article class="card">
+                        <div class="card__icon" aria-hidden="true">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" role="img"
+                                aria-label="Квартира">
+                                <path d="M4 10.5L12 4l8 6.5V20a1 1 0 0 1-1 1h-5v-7H10v7H5a1 1 0 0 1-1-1v-9.5Z"
+                                    stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <h3 class="card__title">Квартира</h3>
+                        <p class="card__text">Комфортная температура без сквозняков. Часто достаточно 9–12k BTU для
+                            20–35 м².</p>
+                        <p class="card__hint">Советуем: инвертор + «мягкий поток».</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__icon" aria-hidden="true">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" role="img" aria-label="Офис">
+                                <path d="M4 20V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v14" stroke="currentColor"
+                                    stroke-width="1.8" stroke-linecap="round" />
+                                <path d="M8 8h8M8 12h8M8 16h6" stroke="currentColor" stroke-width="1.8"
+                                    stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <h3 class="card__title">Офис</h3>
+                        <p class="card__text">Быстрое охлаждение и стабильная работа весь день. Выбираем запас по
+                            мощности и фильтрацию.</p>
+                        <p class="card__hint">Советуем: 12–18k BTU + усиленный теплообменник.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__icon" aria-hidden="true">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" role="img" aria-label="Детская">
+                                <path d="M7 20V9a5 5 0 0 1 10 0v11" stroke="currentColor" stroke-width="1.8"
+                                    stroke-linecap="round" />
+                                <path d="M5 20h14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                                <path d="M9.5 12.5h5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <h3 class="card__title">Детская</h3>
+                        <p class="card__text">Самое важное — тишина и мягкий поток. Подбираем 19–23 дБ и режим сна.</p>
+                        <p class="card__hint">Советуем: «Sleep», защита от переохлаждения.</p>
+                    </article>
+
+                    <article class="card">
+                        <div class="card__icon" aria-hidden="true">
+                            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" role="img" aria-label="Спальня">
+                                <path d="M4 18V9a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v9" stroke="currentColor"
+                                    stroke-width="1.8" stroke-linecap="round" />
+                                <path d="M4 18h16M7 7V5M17 7V5" stroke="currentColor" stroke-width="1.8"
+                                    stroke-linecap="round" />
+                            </svg>
+                        </div>
+                        <h3 class="card__title">Спальня</h3>
+                        <p class="card__text">Тихая работа и отсутствие «ветра в лицо». Выбираем модели 19–26 дБ с
+                            плавной регулировкой.</p>
+                        <p class="card__hint">Советуем: инвертор + ночной режим.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Catalog -->
+        <section class="section section--alt" id="catalog">
+            <div class="container">
+                <div class="section__head">
+                    <h2 class="section__title">Каталог популярных моделей</h2>
+                    <p class="section__desc">6 проверенных вариантов для разных помещений. Подскажем, что подойдёт
+                        именно вам.</p>
+                </div>
+
+                <div class="grid grid--3">
+                    <!-- NOTE: Each product uses a data-URI SVG image. -->
+
+                    <article class="product">
+                        <div class="product__top">
+                            <img class="product__img" alt="Кондиционер Arctic 09 Inverter (иллюстрация)" src="data:image/svg+xml;utf8,
+                   <svg xmlns='http://www.w3.org/2000/svg' width='900' height='520' viewBox='0 0 900 520'>
+                     <defs>
+                       <linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>
+                         <stop offset='0' stop-color='%236ad7ff' stop-opacity='.30'/>
+                         <stop offset='1' stop-color='%234aa7ff' stop-opacity='.12'/>
+                       </linearGradient>
+                       <filter id='s' x='-30%25' y='-30%25' width='160%25' height='160%25'>
+                         <feDropShadow dx='0' dy='18' stdDeviation='16' flood-color='%23000000' flood-opacity='.30'/>
+                       </filter>
+                     </defs>
+                     <rect width='900' height='520' rx='40' fill='%230f1a2e'/>
+                     <rect width='900' height='520' rx='40' fill='url(%23g)'/>
+                     <g filter='url(%23s)'>
+                       <rect x='160' y='150' width='580' height='170' rx='36' fill='%23ffffff' fill-opacity='.14' stroke='%23ffffff' stroke-opacity='.16'/>
+                       <rect x='190' y='245' width='520' height='44' rx='20' fill='%23000000' fill-opacity='.18' stroke='%23ffffff' stroke-opacity='.14'/>
+                       <rect x='190' y='218' width='520' height='2' fill='%23ffffff' fill-opacity='.12'/>
+                       <rect x='650' y='175' width='60' height='22' rx='999' fill='%234aa7ff' fill-opacity='.22' stroke='%234aa7ff' stroke-opacity='.28'/>
+                       <text x='210' y='205' font-family='system-ui, -apple-system, Segoe UI, Arial' font-size='18' fill='%23ffffff' fill-opacity='.75'>Arctic 09 • Inverter • A++</text>
+                     </g>
+                     <path d='M120 360 C 260 310, 360 420, 520 350 S 760 360, 860 320' stroke='%236ad7ff' stroke-opacity='.28' stroke-width='18' fill='none' stroke-linecap='round'/>
+                   </svg>" />
+                            <div class="product__badges" aria-label="Характеристики">
+                                <span class="tag">Инвертор</span>
+                                <span class="tag">A++</span>
+                                <span class="tag">19 дБ</span>
+                            </div>
+                        </div>
+                        <h3 class="product__title">Arctic 09 Inverter</h3>
+                        <ul class="specs" aria-label="Параметры">
+                            <li><span>Мощность</span><strong>9k BTU</strong></li>
+                            <li><span>Площадь</span><strong>до 25 м²</strong></li>
+                            <li><span>Шум</span><strong>19–24 дБ</strong></li>
+                            <li><span>Гарантия</span><strong>3 года</strong></li>
+                        </ul>
+                        <div class="price">
+                            <div class="price__main"><strong>1000 ₽</strong> <span class="price__note">с
+                                    установкой</span></div>
+                            <div class="price__sub">В рассрочку: <strong>от € 54/мес</strong></div>
+                        </div>
+                        <a class="btn btn--primary btn--full" href="#lead"
+                            aria-label="Заказать Arctic 09 Inverter">Заказать</a>
+                    </article>
+
+                    <article class="product">
+                        <div class="product__top">
+                            <img class="product__img" alt="Кондиционер Breeze 12 Smart (иллюстрация)" src="data:image/svg+xml;utf8,
+                   <svg xmlns='http://www.w3.org/2000/svg' width='900' height='520' viewBox='0 0 900 520'>
+                     <defs>
+                       <linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>
+                         <stop offset='0' stop-color='%237cf0c2' stop-opacity='.20'/>
+                         <stop offset='1' stop-color='%234aa7ff' stop-opacity='.14'/>
+                       </linearGradient>
+                       <filter id='s' x='-30%25' y='-30%25' width='160%25' height='160%25'>
+                         <feDropShadow dx='0' dy='18' stdDeviation='16' flood-color='%23000000' flood-opacity='.30'/>
+                       </filter>
+                     </defs>
+                     <rect width='900' height='520' rx='40' fill='%230f1a2e'/>
+                     <rect width='900' height='520' rx='40' fill='url(%23g)'/>
+                     <g filter='url(%23s)'>
+                       <rect x='160' y='150' width='580' height='170' rx='36' fill='%23ffffff' fill-opacity='.14' stroke='%23ffffff' stroke-opacity='.16'/>
+                       <rect x='190' y='245' width='520' height='44' rx='20' fill='%23000000' fill-opacity='.18' stroke='%23ffffff' stroke-opacity='.14'/>
+                       <rect x='190' y='218' width='520' height='2' fill='%23ffffff' fill-opacity='.12'/>
+                       <rect x='640' y='175' width='70' height='22' rx='999' fill='%237cf0c2' fill-opacity='.22' stroke='%237cf0c2' stroke-opacity='.26'/>
+                       <text x='210' y='205' font-family='system-ui, -apple-system, Segoe UI, Arial' font-size='18' fill='%23ffffff' fill-opacity='.75'>Breeze 12 • Wi-Fi • Smart</text>
+                       <circle cx='618' cy='186' r='6' fill='%236ad7ff' fill-opacity='.75'/>
+                     </g>
+                     <path d='M120 370 C 260 320, 380 450, 540 360 S 760 360, 860 330' stroke='%236ad7ff' stroke-opacity='.25' stroke-width='16' fill='none' stroke-linecap='round'/>
+                   </svg>" />
+                            <div class="product__badges" aria-label="Характеристики">
+                                <span class="tag">Инвертор</span>
+                                <span class="tag">Wi-Fi</span>
+                                <span class="tag">22 дБ</span>
+                            </div>
+                        </div>
+                        <h3 class="product__title">Breeze 12 Smart</h3>
+                        <ul class="specs" aria-label="Параметры">
+                            <li><span>Мощность</span><strong>12k BTU</strong></li>
+                            <li><span>Площадь</span><strong>до 35 м²</strong></li>
+                            <li><span>Шум</span><strong>22–26 дБ</strong></li>
+                            <li><span>Гарантия</span><strong>3 года</strong></li>
+                        </ul>
+                        <div class="price">
+                            <div class="price__main"><strong>₽ 749</strong> <span class="price__note">с
+                                    установкой</span></div>
+                            <div class="price__sub">В рассрочку: <strong>от € 62/мес</strong></div>
+                        </div>
+                        <a class="btn btn--primary btn--full" href="#lead"
+                            aria-label="Заказать Breeze 12 Smart">Заказать</a>
+                    </article>
+
+                    <article class="product">
+                        <div class="product__top">
+                            <img class="product__img" alt="Кондиционер Polar 18 Comfort (иллюстрация)" src="data:image/svg+xml;utf8,
+                   <svg xmlns='http://www.w3.org/2000/svg' width='900' height='520' viewBox='0 0 900 520'>
+                     <defs>
+                       <linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>
+                         <stop offset='0' stop-color='%23ffd27d' stop-opacity='.22'/>
+                         <stop offset='1' stop-color='%234aa7ff' stop-opacity='.12'/>
+                       </linearGradient>
+                       <filter id='s' x='-30%25' y='-30%25' width='160%25' height='160%25'>
+                         <feDropShadow dx='0' dy='18' stdDeviation='16' flood-color='%23000000' flood-opacity='.30'/>
+                       </filter>
+                     </defs>
+                     <rect width='900' height='520' rx='40' fill='%230f1a2e'/>
+                     <rect width='900' height='520' rx='40' fill='url(%23g)'/>
+                     <g filter='url(%23s)'>
+                       <rect x='140' y='150' width='620' height='170' rx='36' fill='%23ffffff' fill-opacity='.14' stroke='%23ffffff' stroke-opacity='.16'/>
+                       <rect x='170' y='245' width='560' height='44' rx='20' fill='%23000000' fill-opacity='.18' stroke='%23ffffff' stroke-opacity='.14'/>
+                       <rect x='170' y='218' width='560' height='2' fill='%23ffffff' fill-opacity='.12'/>
+                       <rect x='650' y='175' width='80' height='22' rx='999' fill='%23ffd27d' fill-opacity='.22' stroke='%23ffd27d' stroke-opacity='.28'/>
+                       <text x='190' y='205' font-family='system-ui, -apple-system, Segoe UI, Arial' font-size='18' fill='%23ffffff' fill-opacity='.75'>Polar 18 • Turbo • Office</text>
+                     </g>
+                     <path d='M120 360 C 280 290, 410 440, 560 350 S 780 350, 860 320' stroke='%236ad7ff' stroke-opacity='.22' stroke-width='18' fill='none' stroke-linecap='round'/>
+                   </svg>" />
+                            <div class="product__badges" aria-label="Характеристики">
+                                <span class="tag">18k BTU</span>
+                                <span class="tag">Turbo</span>
+                                <span class="tag">Фильтр</span>
+                            </div>
+                        </div>
+                        <h3 class="product__title">Polar 18 Comfort</h3>
+                        <ul class="specs" aria-label="Параметры">
+                            <li><span>Мощность</span><strong>18k BTU</strong></li>
+                            <li><span>Площадь</span><strong>до 55 м²</strong></li>
+                            <li><span>Шум</span><strong>24–29 дБ</strong></li>
+                            <li><span>Гарантия</span><strong>3 года</strong></li>
+                        </ul>
+                        <div class="price">
+                            <div class="price__main"><strong>₽ 999</strong> <span class="price__note">с
+                                    установкой</span></div>
+                            <div class="price__sub">В рассрочку: <strong>от € 83/мес</strong></div>
+                        </div>
+                        <a class="btn btn--primary btn--full" href="#lead"
+                            aria-label="Заказать Polar 18 Comfort">Заказать</a>
+                    </article>
+
+                    <article class="product">
+                        <div class="product__top">
+                            <img class="product__img" alt="Кондиционер Silent 09 Night (иллюстрация)" src="data:image/svg+xml;utf8,
+                   <svg xmlns='http://www.w3.org/2000/svg' width='900' height='520' viewBox='0 0 900 520'>
+                     <defs>
+                       <linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>
+                         <stop offset='0' stop-color='%23ffffff' stop-opacity='.10'/>
+                         <stop offset='1' stop-color='%234aa7ff' stop-opacity='.12'/>
+                       </linearGradient>
+                       <filter id='s' x='-30%25' y='-30%25' width='160%25' height='160%25'>
+                         <feDropShadow dx='0' dy='18' stdDeviation='16' flood-color='%23000000' flood-opacity='.30'/>
+                       </filter>
+                     </defs>
+                     <rect width='900' height='520' rx='40' fill='%230f1a2e'/>
+                     <rect width='900' height='520' rx='40' fill='url(%23g)'/>
+                     <g filter='url(%23s)'>
+                       <rect x='180' y='150' width='560' height='170' rx='36' fill='%23ffffff' fill-opacity='.14' stroke='%23ffffff' stroke-opacity='.16'/>
+                       <rect x='210' y='245' width='500' height='44' rx='20' fill='%23000000' fill-opacity='.18' stroke='%23ffffff' stroke-opacity='.14'/>
+                       <rect x='210' y='218' width='500' height='2' fill='%23ffffff' fill-opacity='.12'/>
+                       <rect x='650' y='175' width='60' height='22' rx='999' fill='%236ad7ff' fill-opacity='.18' stroke='%236ad7ff' stroke-opacity='.25'/>
+                       <text x='230' y='205' font-family='system-ui, -apple-system, Segoe UI, Arial' font-size='18' fill='%23ffffff' fill-opacity='.75'>Silent 09 • Night • 19 dB</text>
+                     </g>
+                     <path d='M120 380 C 260 330, 360 470, 520 380 S 760 380, 860 350' stroke='%236ad7ff' stroke-opacity='.18' stroke-width='14' fill='none' stroke-linecap='round'/>
+                     <path d='M700 110c22 10 22 34 0 44c10-20 10-26 0-44z' fill='%23ffd27d' fill-opacity='.45'/>
+                   </svg>" />
+                            <div class="product__badges" aria-label="Характеристики">
+                                <span class="tag">Сон</span>
+                                <span class="tag">19 дБ</span>
+                                <span class="tag">Мягкий поток</span>
+                            </div>
+                        </div>
+                        <h3 class="product__title">Silent 09 Night</h3>
+                        <ul class="specs" aria-label="Параметры">
+                            <li><span>Мощность</span><strong>9k BTU</strong></li>
+                            <li><span>Площадь</span><strong>до 25 м²</strong></li>
+                            <li><span>Шум</span><strong>19–23 дБ</strong></li>
+                            <li><span>Гарантия</span><strong>2 года</strong></li>
+                        </ul>
+                        <div class="price">
+                            <div class="price__main"><strong>₽ 629</strong> <span class="price__note">с
+                                    установкой</span></div>
+                            <div class="price__sub">В рассрочку: <strong>от € 52/мес</strong></div>
+                        </div>
+                        <a class="btn btn--primary btn--full" href="#lead"
+                            aria-label="Заказать Silent 09 Night">Заказать</a>
+                    </article>
+
+                    <article class="product">
+                        <div class="product__top">
+                            <img class="product__img" alt="Кондиционер Eco 12 Balance (иллюстрация)" src="data:image/svg+xml;utf8,
+                   <svg xmlns='http://www.w3.org/2000/svg' width='900' height='520' viewBox='0 0 900 520'>
+                     <defs>
+                       <linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>
+                         <stop offset='0' stop-color='%237cf0c2' stop-opacity='.18'/>
+                         <stop offset='1' stop-color='%23ffd27d' stop-opacity='.12'/>
+                       </linearGradient>
+                       <filter id='s' x='-30%25' y='-30%25' width='160%25' height='160%25'>
+                         <feDropShadow dx='0' dy='18' stdDeviation='16' flood-color='%23000000' flood-opacity='.30'/>
+                       </filter>
+                     </defs>
+                     <rect width='900' height='520' rx='40' fill='%230f1a2e'/>
+                     <rect width='900' height='520' rx='40' fill='url(%23g)'/>
+                     <g filter='url(%23s)'>
+                       <rect x='180' y='150' width='560' height='170' rx='36' fill='%23ffffff' fill-opacity='.14' stroke='%23ffffff' stroke-opacity='.16'/>
+                       <rect x='210' y='245' width='500' height='44' rx='20' fill='%23000000' fill-opacity='.18' stroke='%23ffffff' stroke-opacity='.14'/>
+                       <rect x='210' y='218' width='500' height='2' fill='%23ffffff' fill-opacity='.12'/>
+                       <rect x='650' y='175' width='60' height='22' rx='999' fill='%237cf0c2' fill-opacity='.20' stroke='%237cf0c2' stroke-opacity='.26'/>
+                       <text x='230' y='205' font-family='system-ui, -apple-system, Segoe UI, Arial' font-size='18' fill='%23ffffff' fill-opacity='.75'>Eco 12 • Self-Clean • A+</text>
+                     </g>
+                     <path d='M120 360 C 260 320, 360 440, 520 360 S 760 360, 860 330' stroke='%236ad7ff' stroke-opacity='.20' stroke-width='16' fill='none' stroke-linecap='round'/>
+                   </svg>" />
+                            <div class="product__badges" aria-label="Характеристики">
+                                <span class="tag">Эконом</span>
+                                <span class="tag">A+</span>
+                                <span class="tag">Самоочистка</span>
+                            </div>
+                        </div>
+                        <h3 class="product__title">Eco 12 Balance</h3>
+                        <ul class="specs" aria-label="Параметры">
+                            <li><span>Мощность</span><strong>12k BTU</strong></li>
+                            <li><span>Площадь</span><strong>до 35 м²</strong></li>
+                            <li><span>Шум</span><strong>23–28 дБ</strong></li>
+                            <li><span>Гарантия</span><strong>2 года</strong></li>
+                        </ul>
+                        <div class="price">
+                            <div class="price__main"><strong>₽ 699</strong> <span class="price__note">с
+                                    установкой</span></div>
+                            <div class="price__sub">В рассрочку: <strong>от € 58/мес</strong></div>
+                        </div>
+                        <a class="btn btn--primary btn--full" href="#lead"
+                            aria-label="Заказать Eco 12 Balance">Заказать</a>
+                    </article>
+
+                    <article class="product">
+                        <div class="product__top">
+                            <img class="product__img" alt="Кондиционер Pro 12 AirCare (иллюстрация)" src="data:image/svg+xml;utf8,
+                   <svg xmlns='http://www.w3.org/2000/svg' width='900' height='520' viewBox='0 0 900 520'>
+                     <defs>
+                       <linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>
+                         <stop offset='0' stop-color='%234aa7ff' stop-opacity='.22'/>
+                         <stop offset='1' stop-color='%236ad7ff' stop-opacity='.14'/>
+                       </linearGradient>
+                       <filter id='s' x='-30%25' y='-30%25' width='160%25' height='160%25'>
+                         <feDropShadow dx='0' dy='18' stdDeviation='16' flood-color='%23000000' flood-opacity='.30'/>
+                       </filter>
+                     </defs>
+                     <rect width='900' height='520' rx='40' fill='%230f1a2e'/>
+                     <rect width='900' height='520' rx='40' fill='url(%23g)'/>
+                     <g filter='url(%23s)'>
+                       <rect x='160' y='150' width='580' height='170' rx='36' fill='%23ffffff' fill-opacity='.14' stroke='%23ffffff' stroke-opacity='.16'/>
+                       <rect x='190' y='245' width='520' height='44' rx='20' fill='%23000000' fill-opacity='.18' stroke='%23ffffff' stroke-opacity='.14'/>
+                       <rect x='190' y='218' width='520' height='2' fill='%23ffffff' fill-opacity='.12'/>
+                       <rect x='630' y='175' width='80' height='22' rx='999' fill='%234aa7ff' fill-opacity='.20' stroke='%234aa7ff' stroke-opacity='.28'/>
+                       <text x='210' y='205' font-family='system-ui, -apple-system, Segoe UI, Arial' font-size='18' fill='%23ffffff' fill-opacity='.75'>Pro 12 • Ion • Wi-Fi</text>
+                       <circle cx='608' cy='186' r='6' fill='%237cf0c2' fill-opacity='.70'/>
+                     </g>
+                     <path d='M120 350 C 270 300, 380 420, 540 340 S 760 350, 860 310' stroke='%236ad7ff' stroke-opacity='.22' stroke-width='18' fill='none' stroke-linecap='round'/>
+                   </svg>" />
+                            <div class="product__badges" aria-label="Характеристики">
+                                <span class="tag">Премиум</span>
+                                <span class="tag">Wi-Fi</span>
+                                <span class="tag">Ионизация</span>
+                            </div>
+                        </div>
+                        <h3 class="product__title">Pro 12 AirCare</h3>
+                        <ul class="specs" aria-label="Параметры">
+                            <li><span>Мощность</span><strong>12k BTU</strong></li>
+                            <li><span>Площадь</span><strong>до 35 м²</strong></li>
+                            <li><span>Шум</span><strong>21–26 дБ</strong></li>
+                            <li><span>Гарантия</span><strong>5 лет</strong></li>
+                        </ul>
+                        <div class="price">
+                            <div class="price__main"><strong>₽ 899</strong> <span class="price__note">с
+                                    установкой</span></div>
+                            <div class="price__sub">В рассрочку: <strong>от € 75/мес</strong></div>
+                        </div>
+                        <a class="btn btn--primary btn--full" href="#lead"
+                            aria-label="Заказать Pro 12 AirCare">Заказать</a>
+                    </article>
+                </div>
+
+                <div class="disclaimer" role="note" aria-label="Дисклеймер по цене">
+                    <strong>Важно:</strong> итоговая стоимость зависит от длины трассы, отверстий, высоты/этажности и
+                    доступа к фасаду.
+                    Перед монтажом вы получите понятную смету и согласуете её.
+                </div>
+            </div>
+        </section>
+
+        <!-- Why us -->
+        <section class="section" id="why">
+            <div class="container">
+                <div class="section__head">
+                    <h2 class="section__title">Почему выбирают нас</h2>
+                    <p class="section__desc">Сервис, который приятно рекомендовать: быстро, аккуратно и с понятными
+                        условиями.</p>
+                </div>
+
+                <div class="grid grid--3">
+                    <article class="feature">
+                        <div class="feature__icon" aria-hidden="true">⚡</div>
+                        <h3 class="feature__title">Монтаж за 1 день</h3>
+                        <p class="feature__text">В большинстве случаев установка занимает 3–4 часа, без “растяжки на
+                            недели”.</p>
+                    </article>
+                    <article class="feature">
+                        <div class="feature__icon" aria-hidden="true">🛠️</div>
+                        <h3 class="feature__title">Сертифицированные мастера</h3>
+                        <p class="feature__text">Работаем по стандартам, используем вакуумирование и качественные
+                            расходники.</p>
+                    </article>
+                    <article class="feature">
+                        <div class="feature__icon" aria-hidden="true">🧾</div>
+                        <h3 class="feature__title">Честная смета</h3>
+                        <p class="feature__text">Без скрытых доплат: объясняем, что входит, и фиксируем условия до
+                            начала работ.</p>
+                    </article>
+                    <article class="feature">
+                        <div class="feature__icon" aria-hidden="true">🚗</div>
+                        <h3 class="feature__title">Бесплатный выезд</h3>
+                        <p class="feature__text">Подбор и выезд на объект — бесплатно. Уточним трассу, место блоков,
+                            питание.</p>
+                    </article>
+                    <article class="feature">
+                        <div class="feature__icon" aria-hidden="true">🧼</div>
+                        <h3 class="feature__title">Аккуратно и чисто</h3>
+                        <p class="feature__text">Пылесборник, защита мебели, уборка после монтажа — как в нормальном
+                            сервисе.</p>
+                    </article>
+                    <article class="feature">
+                        <div class="feature__icon" aria-hidden="true">🤝</div>
+                        <h3 class="feature__title">Поддержка после установки</h3>
+                        <p class="feature__text">Подскажем по режимам, обслуживанию и фильтрам. На связи после монтажа.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- How it works -->
+        <section class="section section--alt" id="steps">
+            <div class="container">
+                <div class="section__head">
+                    <h2 class="section__title">Как мы работаем</h2>
+                    <p class="section__desc">Простой процесс: от заявки до готового охлаждения — без лишней суеты.</p>
+                </div>
+
+                <ol class="steps" aria-label="Этапы работы">
+                    <li class="step">
+                        <div class="step__num" aria-hidden="true">1</div>
+                        <div class="step__body">
+                            <h3 class="step__title">Заявка и уточнение</h3>
+                            <p class="step__text">Вы оставляете контакты — мы задаём 3–4 вопроса и предлагаем варианты.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="step">
+                        <div class="step__num" aria-hidden="true">2</div>
+                        <div class="step__body">
+                            <h3 class="step__title">Выезд и смета</h3>
+                            <p class="step__text">Бесплатно уточняем трассу, место блоков и питание. Согласуем итоговую
+                                стоимость.</p>
+                        </div>
+                    </li>
+                    <li class="step">
+                        <div class="step__num" aria-hidden="true">3</div>
+                        <div class="step__body">
+                            <h3 class="step__title">Монтаж «под ключ»</h3>
+                            <p class="step__text">Установка, вакуумирование, проверка. Работаем аккуратно и оставляем
+                                чисто.</p>
+                        </div>
+                    </li>
+                    <li class="step">
+                        <div class="step__num" aria-hidden="true">4</div>
+                        <div class="step__body">
+                            <h3 class="step__title">Запуск и инструкции</h3>
+                            <p class="step__text">Проверяем режимы, объясняем управление, даём рекомендации по
+                                обслуживанию.</p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- Promo -->
+        <section class="section promo" id="promo">
+            <div class="container promo__inner">
+                <div class="promo__text">
+                    <h2 class="promo__title">Акция до конца недели: бесплатный комплект трассы до 3 метров*</h2>
+                    <p class="promo__desc">
+                        Оформите заказ до <strong>воскресенья</strong> и получите комплект трассы до 3 м в подарок.
+                        Условия зафиксируем в смете.
+                    </p>
+                    <p class="promo__note microcopy">*Акция действует при заказе кондиционера с монтажом. Подробности
+                        уточняйте у менеджера.</p>
+                </div>
+                <div class="promo__cta">
+                    <div class="promo__box" role="note" aria-label="Преимущества акции">
+                        <div class="promo__kpi">
+                            <div class="kpi">
+                                <div class="kpi__v">-₽120</div>
+                                <div class="kpi__k">экономия на трассе</div>
+                            </div>
+                            <div class="kpi">
+                                <div class="kpi__v">10 мин</div>
+                                <div class="kpi__k">перезвоним</div>
+                            </div>
+                        </div>
+                        <a class="btn btn--primary btn--full btn--lg" href="#lead"
+                            aria-label="Получить акцию и смету">Получить акцию и смету</a>
+                        <p class="microcopy">Без спама. 1 звонок — и 2–3 варианта с ценой.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reviews -->
+        <section class="section" id="reviews">
+            <div class="container">
+                <div class="section__head">
+                    <h2 class="section__title">Отзывы клиентов</h2>
+                    <p class="section__desc">Коротко и по делу — за что нас выбирают и рекомендуют.</p>
+                </div>
+
+                <div class="grid grid--2">
+                    <article class="review">
+                        <div class="review__top">
+                            <div class="review__person">
+                                <img class="avatar" alt="Аватар Марина" src="data:image/svg+xml;utf8,
+                <svg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'>
+                  <defs>
+                    <linearGradient id='a' x1='0' y1='0' x2='1' y2='1'>
+                      <stop offset='0' stop-color='%236ad7ff'/>
+                      <stop offset='1' stop-color='%234aa7ff'/>
+                    </linearGradient>
+                  </defs>
+                  <rect width='120' height='120' rx='60' fill='url(%23a)' fill-opacity='.22'/>
+                  <circle cx='60' cy='48' r='20' fill='%23ffffff' fill-opacity='.35'/>
+                  <path d='M22 106c6-22 22-34 38-34s32 12 38 34' fill='%23ffffff' fill-opacity='.25'/>
+                </svg>" />
+                                <div>
+                                    <div class="review__name">Марина</div>
+                                    <div class="review__meta">Берлин</div>
+                                </div>
+                            </div>
+                            <div class="review__stars" aria-label="Оценка 5 из 5">★★★★★</div>
+                        </div>
+                        <p class="review__text">Подбор сделали быстро, смета понятная. Установили аккуратно, после
+                            монтажа всё убрали. Кондиционер тихий — в спальне супер.</p>
+                    </article>
+
+                    <article class="review">
+                        <div class="review__top">
+                            <div class="review__person">
+                                <img class="avatar" alt="Аватар Алексей" src="data:image/svg+xml;utf8,
+                <svg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'>
+                  <defs>
+                    <linearGradient id='a' x1='0' y1='0' x2='1' y2='1'>
+                      <stop offset='0' stop-color='%237cf0c2'/>
+                      <stop offset='1' stop-color='%236ad7ff'/>
+                    </linearGradient>
+                  </defs>
+                  <rect width='120' height='120' rx='60' fill='url(%23a)' fill-opacity='.22'/>
+                  <circle cx='60' cy='48' r='20' fill='%23ffffff' fill-opacity='.35'/>
+                  <path d='M22 106c6-22 22-34 38-34s32 12 38 34' fill='%23ffffff' fill-opacity='.25'/>
+                </svg>" />
+                                <div>
+                                    <div class="review__name">Алексей</div>
+                                    <div class="review__meta">Потсдам</div>
+                                </div>
+                            </div>
+                            <div class="review__stars" aria-label="Оценка 5 из 5">★★★★★</div>
+                        </div>
+                        <p class="review__text">Нужно было в офис — помогли выбрать с запасом по мощности. Монтаж за
+                            один визит, всё проверили, объяснили режимы.</p>
+                    </article>
+
+                    <article class="review">
+                        <div class="review__top">
+                            <div class="review__person">
+                                <img class="avatar" alt="Аватар Ирина" src="data:image/svg+xml;utf8,
+                <svg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'>
+                  <defs>
+                    <linearGradient id='a' x1='0' y1='0' x2='1' y2='1'>
+                      <stop offset='0' stop-color='%23ffd27d'/>
+                      <stop offset='1' stop-color='%234aa7ff'/>
+                    </linearGradient>
+                  </defs>
+                  <rect width='120' height='120' rx='60' fill='url(%23a)' fill-opacity='.22'/>
+                  <circle cx='60' cy='48' r='20' fill='%23ffffff' fill-opacity='.35'/>
+                  <path d='M22 106c6-22 22-34 38-34s32 12 38 34' fill='%23ffffff' fill-opacity='.25'/>
+                </svg>" />
+                                <div>
+                                    <div class="review__name">Ирина</div>
+                                    <div class="review__meta">Шпандау</div>
+                                </div>
+                            </div>
+                            <div class="review__stars" aria-label="Оценка 5 из 5">★★★★★</div>
+                        </div>
+                        <p class="review__text">Цену заранее согласовали, доплат не было. Понравилось отношение —
+                            спокойно и профессионально.</p>
+                    </article>
+
+                    <article class="review">
+                        <div class="review__top">
+                            <div class="review__person">
+                                <img class="avatar" alt="Аватар Даниэль" src="data:image/svg+xml;utf8,
+                <svg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'>
+                  <defs>
+                    <linearGradient id='a' x1='0' y1='0' x2='1' y2='1'>
+                      <stop offset='0' stop-color='%234aa7ff'/>
+                      <stop offset='1' stop-color='%23ffffff'/>
+                    </linearGradient>
+                  </defs>
+                  <rect width='120' height='120' rx='60' fill='url(%23a)' fill-opacity='.20'/>
+                  <circle cx='60' cy='48' r='20' fill='%23ffffff' fill-opacity='.35'/>
+                  <path d='M22 106c6-22 22-34 38-34s32 12 38 34' fill='%23ffffff' fill-opacity='.25'/>
+                </svg>" />
+                                <div>
+                                    <div class="review__name">Даниэль</div>
+                                    <div class="review__meta">Берлин</div>
+                                </div>
+                            </div>
+                            <div class="review__stars" aria-label="Оценка 4 из 5">★★★★☆</div>
+                        </div>
+                        <p class="review__text">Приехали вовремя, сделали чисто. Отлично работает, по шуму — тихо. Хотел
+                            бы чуть больше вариантов по дизайну корпуса.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="section section--alt" id="faq">
+            <div class="container">
+                <div class="section__head">
+                    <h2 class="section__title">Вопросы и ответы</h2>
+                    <p class="section__desc">Собрали частые вопросы — чтобы вы сразу понимали, что и как.</p>
+                </div>
+
+                <div class="faq" aria-label="FAQ">
+                    <details class="faq__item">
+                        <summary class="faq__q">Сколько времени занимает установка?</summary>
+                        <div class="faq__a">
+                            Обычно 3–4 часа на один сплит. Если сложный доступ к фасаду или длинная трасса — обсудим
+                            заранее.
+                        </div>
+                    </details>
+
+                    <details class="faq__item">
+                        <summary class="faq__q">Что входит в монтаж «под ключ»?</summary>
+                        <div class="faq__a">
+                            Крепления, трасса (по согласованию), вакуумирование, запуск, проверка режимов, инструктаж.
+                            Итоговый список — в смете.
+                        </div>
+                    </details>
+
+                    <details class="faq__item">
+                        <summary class="faq__q">Как подобрать мощность (BTU) под комнату?</summary>
+                        <div class="faq__a">
+                            В среднем: 9k — до 25 м², 12k — до 35 м², 18k — до 55 м². Но влияет солнце, этаж, техника и
+                            количество людей.
+                        </div>
+                    </details>
+
+                    <details class="faq__item">
+                        <summary class="faq__q">Есть ли рассрочка?</summary>
+                        <div class="faq__a">
+                            Да, доступна рассрочка от 0% (условия зависят от банка/партнёра). Подробности уточним при
+                            подборе.
+                        </div>
+                    </details>
+
+                    <details class="faq__item">
+                        <summary class="faq__q">Какая гарантия?</summary>
+                        <div class="faq__a">
+                            На монтаж — 12 месяцев. На оборудование — от 2 до 5 лет в зависимости от модели (указано в
+                            каталоге).
+                        </div>
+                    </details>
+
+                    <details class="faq__item">
+                        <summary class="faq__q">Будет ли пыль и грязь при сверлении?</summary>
+                        <div class="faq__a">
+                            Минимизируем: используем пылесборник, защищаем мебель и убираем после работ. Стараемся
+                            оставлять помещение чистым.
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lead form -->
+        <section class="section" id="lead">
+            <div class="container">
+                <div class="section__head">
+                    <h2 class="section__title">Получите подбор и смету за 10 минут</h2>
+                    <p class="section__desc">Оставьте контакты — мы уточним детали и предложим 2–3 подходящие модели с
+                        ценой.</p>
+                </div>
+
+                <div class="lead">
+                    <form class="form" action="#" method="post" aria-label="Форма заявки на подбор">
+                        <div class="form__grid">
+                            <label class="field">
+                                <span class="field__label">Ваше имя</span>
+                                <input class="field__input" type="text" name="name" placeholder="Например, Анна"
+                                    autocomplete="name" required />
+                            </label>
+
+                            <label class="field">
+                                <span class="field__label">Телефон</span>
+                                <input class="field__input" type="tel" name="phone" placeholder="+49 ..."
+                                    autocomplete="tel" required aria-label="Введите номер телефона" />
+                                <span class="field__hint">Перезвоним в течение 10 минут в рабочее время.</span>
+                            </label>
+
+                            <label class="field">
+                                <span class="field__label">Помещение</span>
+                                <select class="field__input" name="room" required aria-label="Выберите тип помещения">
+                                    <option value="" selected disabled>Выберите…</option>
+                                    <option value="apartment">Квартира</option>
+                                    <option value="office">Офис</option>
+                                    <option value="kids">Детская</option>
+                                    <option value="bedroom">Спальня</option>
+                                    <option value="other">Другое</option>
+                                </select>
+                            </label>
+
+                            <label class="field field--wide">
+                                <span class="field__label">Комментарий (необязательно)</span>
+                                <textarea class="field__input field__input--area" name="comment" rows="3"
+                                    placeholder="Площадь, этаж, солнечная сторона, пожелания по шуму/функциям"></textarea>
+                            </label>
+                        </div>
+
+                        <label class="check">
+                            <input class="check__box" type="checkbox" name="consent" required
+                                aria-label="Согласие на обработку данных" />
+                            <span class="check__text">Я согласен(на) на обработку персональных данных и получение звонка
+                                по заявке.</span>
+                        </label>
+
+                        <div class="form__actions">
+                            <button class="btn btn--primary btn--lg" type="submit"
+                                aria-label="Отправить заявку">Отправить заявку</button>
+                            <p class="microcopy">Нажимая «Отправить», вы не оформляете заказ — мы сначала согласуем
+                                смету.</p>
+                        </div>
+                    </form>
+
+                    <aside class="lead__aside" aria-label="Гарантии сервиса">
+                        <div class="aside-card">
+                            <h3 class="aside-card__title">Что вы получите</h3>
+                            <ul class="checklist" aria-label="Список преимуществ">
+                                <li>2–3 модели под вашу площадь и задачи</li>
+                                <li>Понятная смета по монтажу</li>
+                                <li>Рекомендации по месту установки</li>
+                                <li>Запись на удобную дату</li>
+                            </ul>
+                            <div class="aside-card__note">
+                                <strong>Без спама:</strong> только по вашему запросу и по делу.
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacts -->
+        <section class="section section--alt" id="contacts">
+            <div class="container">
+                <div class="section__head">
+                    <h2 class="section__title">Контакты</h2>
+                    <p class="section__desc">Работаем по городу и ближайшим районам. Выезд на замер — бесплатно.</p>
+                </div>
+
+                <div class="contacts">
+                    <div class="contacts__card">
+                        <h3 class="contacts__title">Связаться</h3>
+                        <p class="contacts__row">
+                            <span class="muted">Телефон:</span>
+                            <a class="link" href="tel:+49999999999" aria-label="Позвонить по номеру">+49 (999)
+                                999-99-99</a>
+                        </p>
+                        <p class="contacts__row">
+                            <span class="muted">График:</span> Пн–Сб 09:00–19:00
+                        </p>
+                        <p class="contacts__row">
+                            <span class="muted">Зона обслуживания:</span> Берлин и пригород (до 30 км)
+                        </p>
+                        <p class="contacts__row">
+                            <span class="muted">Адрес:</span> Friedrichstraße 123, 10117 (пример)
+                        </p>
+                    </div>
+
+                    <div class="contacts__card">
+                        <h3 class="contacts__title">Реквизиты (пример)</h3>
+                        <p class="contacts__row"><span class="muted">Компания:</span> CoolAir Service GmbH</p>
+                        <p class="contacts__row"><span class="muted">VAT:</span> DE000000000</p>
+                        <p class="contacts__row"><span class="muted">E-mail:</span> hello@coolair.example</p>
+                        <p class="microcopy">*Замените реквизиты и адрес на реальные перед публикацией.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Mobile sticky CTA -->
+    <a class="mobile-cta" href="#lead" aria-label="Оставить заявку (мобильная кнопка)">
+        Подобрать кондиционер
+    </a>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div class="footer__left">
+                <div class="footer__brand">CoolAir</div>
+                <div class="footer__copy">© <span aria-label="Год">2026</span> Все права защищены.</div>
+            </div>
+
+            <div class="footer__links" aria-label="Юридические ссылки">
+                <a class="link" href="#top">Наверх</a>
+                <a class="link" href="#contacts">Политика</a>
+                <a class="link" href="#contacts">Публичная оферта</a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
